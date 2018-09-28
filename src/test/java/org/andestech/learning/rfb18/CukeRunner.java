@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = {"org.andestech.learning.rfb18.steps"},
         snippets = SnippetType.CAMELCASE,
-        plugin = {"pretty"}
+        plugin = {"pretty"},
+        tags = {"@loginFeature"}
        // ,tags = {"@2"}
         )
 public class CukeRunner {
